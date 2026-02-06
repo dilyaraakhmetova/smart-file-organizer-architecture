@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
+  <diagram name="Страница-1" id="LIAAPZCY4edgEYCqCUdr">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u7gvSwMnrx8KNf79rE78-25" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="System Boundary" vertex="1">
+          <mxGeometry height="444" width="310" x="498" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u7gvSwMnrx8KNf79rE78-26" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Smart File Organizer System" vertex="1">
+          <mxGeometry height="78" width="260" x="523" y="393" as="geometry" />
+        </mxCell>
+        <mxCell id="u7gvSwMnrx8KNf79rE78-27" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="User" vertex="1">
+          <mxGeometry height="54" width="200" x="30" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="u7gvSwMnrx8KNf79rE78-28" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Operating System File System" vertex="1">
+          <mxGeometry height="78" width="260" x="1030" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="u7gvSwMnrx8KNf79rE78-32" edge="1" parent="1" source="u7gvSwMnrx8KNf79rE78-27" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0.38;entryY=0;rounded=0;exitDx=0;exitDy=0;" target="u7gvSwMnrx8KNf79rE78-26" value="Upload files">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="338" y="210" />
+              <mxPoint x="428" y="190" />
+              <mxPoint x="498" y="240" />
+            </Array>
+            <mxPoint x="180" y="399" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7gvSwMnrx8KNf79rE78-33" edge="1" parent="1" source="u7gvSwMnrx8KNf79rE78-27" style="curved=1;startArrow=none;endArrow=block;exitX=0.867;exitY=-0.005;entryX=0.25;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;exitPerimeter=0;labelBackgroundColor=default;horizontal=1;textShadow=0;" target="u7gvSwMnrx8KNf79rE78-26" value="View metadata">
+          <mxGeometry relative="1" x="-0.0225" y="-26" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="408" y="330" />
+            </Array>
+            <mxPoint x="248" y="399" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7gvSwMnrx8KNf79rE78-34" edge="1" parent="1" source="u7gvSwMnrx8KNf79rE78-26" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.75;entryY=1;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="u7gvSwMnrx8KNf79rE78-27" value="Display organized files">
+          <mxGeometry relative="1" x="-0.1476" y="-30" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="408" y="540" />
+            </Array>
+            <mxPoint x="248" y="453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7gvSwMnrx8KNf79rE78-35" edge="1" parent="1" source="u7gvSwMnrx8KNf79rE78-26" style="curved=1;startArrow=none;endArrow=block;exitX=0.401;exitY=1.014;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=light-dark(#ffffff, #ededed);" target="u7gvSwMnrx8KNf79rE78-27" value="Show search results">
+          <mxGeometry relative="1" x="-0.1752" y="-54" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="398" y="624" />
+            </Array>
+            <mxPoint x="198" y="453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7gvSwMnrx8KNf79rE78-36" edge="1" parent="1" source="u7gvSwMnrx8KNf79rE78-26" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;fontStyle=0" target="u7gvSwMnrx8KNf79rE78-28" value="read/write files, read metadata">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7gvSwMnrx8KNf79rE78-45" edge="1" parent="1" source="u7gvSwMnrx8KNf79rE78-27" style="curved=1;startArrow=none;endArrow=block;exitX=0.623;exitY=-0.019;entryX=0.309;entryY=0.023;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="u7gvSwMnrx8KNf79rE78-26" value="Manage tags">
+          <mxGeometry relative="1" x="0.005" y="-7" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="298" y="270" />
+              <mxPoint x="418" y="230" />
+              <mxPoint x="518" y="270" />
+            </Array>
+            <mxPoint x="212.19999999999982" y="400.99800000000005" as="sourcePoint" />
+            <mxPoint x="588" y="353" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7gvSwMnrx8KNf79rE78-46" edge="1" parent="1" source="u7gvSwMnrx8KNf79rE78-27" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=0.277;entryY=0.002;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="u7gvSwMnrx8KNf79rE78-26" value="Search files">
+          <mxGeometry relative="1" x="0.3081" y="-58" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="400" y="210" />
+            </Array>
+            <mxPoint x="250" y="359" as="sourcePoint" />
+            <mxPoint x="590" y="353" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
