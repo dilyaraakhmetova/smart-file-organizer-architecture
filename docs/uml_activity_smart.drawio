@@ -1,0 +1,199 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
+  <diagram name="Страница-1" id="fHWLF_R-KWawbPz5jOeg">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="omlBwbfkkGb_LAPzVC73-1" edge="1" parent="1" source="omlBwbfkkGb_LAPzVC73-14" style="curved=0;startArrow=none;endArrow=block;exitX=1;exitY=0.5;rounded=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="omlBwbfkkGb_LAPzVC73-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="774" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-2" edge="1" parent="1" source="omlBwbfkkGb_LAPzVC73-21" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0.5;rounded=0;exitDx=0;exitDy=0;entryX=0.467;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" target="omlBwbfkkGb_LAPzVC73-15" value="[Invalid File Format]">
+          <mxGeometry relative="1" x="-0.3682" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="680" y="370" />
+            </Array>
+            <mxPoint x="673.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-4" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;User&lt;/span&gt;" vertex="1">
+          <mxGeometry height="880" width="330" x="210" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-6" parent="omlBwbfkkGb_LAPzVC73-4" style="whiteSpace=wrap;strokeWidth=2;" value="Select files for processing" vertex="1">
+          <mxGeometry height="30" width="170.5" x="79.75" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-8" edge="1" parent="omlBwbfkkGb_LAPzVC73-4" source="omlBwbfkkGb_LAPzVC73-10" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;" target="omlBwbfkkGb_LAPzVC73-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="165.25" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-10" parent="omlBwbfkkGb_LAPzVC73-4" style="shape=ellipse;html=1;fillColor=strokeColor;fontSize=18;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="144.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-12" parent="omlBwbfkkGb_LAPzVC73-4" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="40" width="41" x="143" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-56" parent="omlBwbfkkGb_LAPzVC73-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="File rejected" vertex="1">
+          <mxGeometry height="30" width="90" x="120" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-57" parent="omlBwbfkkGb_LAPzVC73-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Need to organize files" vertex="1">
+          <mxGeometry height="30" width="130" x="98.5" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UmI_Y0XIzYTBldsZVeKH-1" parent="omlBwbfkkGb_LAPzVC73-4" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="40" width="41" x="143" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="UmI_Y0XIzYTBldsZVeKH-2" parent="omlBwbfkkGb_LAPzVC73-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Process finished" vertex="1">
+          <mxGeometry height="30" width="100" x="113.5" y="855" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-13" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;UserInterface&lt;/span&gt;" vertex="1">
+          <mxGeometry height="880" width="330" x="540" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-14" parent="omlBwbfkkGb_LAPzVC73-13" style="whiteSpace=wrap;strokeWidth=2;" value="Submit selected file paths (IPC request)" vertex="1">
+          <mxGeometry height="20" width="236" x="47" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-15" parent="omlBwbfkkGb_LAPzVC73-13" style="whiteSpace=wrap;strokeWidth=2;" value="Display Error Message" vertex="1">
+          <mxGeometry height="30" width="206" x="44" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-18" parent="omlBwbfkkGb_LAPzVC73-13" style="whiteSpace=wrap;strokeWidth=2;" value="Display tags and confirmation" vertex="1">
+          <mxGeometry height="30" width="200" x="50" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-19" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;FileProcessingService&lt;/span&gt;" vertex="1">
+          <mxGeometry height="880" width="484" x="870" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-20" parent="omlBwbfkkGb_LAPzVC73-19" style="whiteSpace=wrap;strokeWidth=2;" value="Create ingestion request" vertex="1">
+          <mxGeometry height="20" width="166" x="76" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-21" parent="omlBwbfkkGb_LAPzVC73-19" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="40" width="24" x="147" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-22" edge="1" parent="omlBwbfkkGb_LAPzVC73-19" source="omlBwbfkkGb_LAPzVC73-20" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="omlBwbfkkGb_LAPzVC73-52" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="190" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-52" parent="omlBwbfkkGb_LAPzVC73-19" style="whiteSpace=wrap;strokeWidth=2;" value="Validate file format" vertex="1">
+          <mxGeometry height="20" width="166" x="76" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-53" edge="1" parent="omlBwbfkkGb_LAPzVC73-19" source="omlBwbfkkGb_LAPzVC73-52" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="omlBwbfkkGb_LAPzVC73-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="280" y="250" as="sourcePoint" />
+            <mxPoint x="280" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-27" parent="omlBwbfkkGb_LAPzVC73-19" style="whiteSpace=wrap;strokeWidth=2;" value="Request file read" vertex="1">
+          <mxGeometry height="20" width="176" x="270" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-45" edge="1" parent="omlBwbfkkGb_LAPzVC73-19" source="omlBwbfkkGb_LAPzVC73-21" style="curved=0;startArrow=none;endArrow=block;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="omlBwbfkkGb_LAPzVC73-27" value="[Valid]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="358" y="300" />
+            </Array>
+            <mxPoint x="104" y="350" as="sourcePoint" />
+            <mxPoint x="-138" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-25" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400; color: rgb(0, 0, 0);&quot;&gt;FileSystemAdapter&lt;/span&gt;" vertex="1">
+          <mxGeometry height="880" width="306" x="1354" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-60" parent="omlBwbfkkGb_LAPzVC73-25" style="whiteSpace=wrap;strokeWidth=2;" value="Read file bytes from OS File System" vertex="1">
+          <mxGeometry height="20" width="210" x="46" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-32" edge="1" parent="1" source="omlBwbfkkGb_LAPzVC73-6" style="curved=0;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="omlBwbfkkGb_LAPzVC73-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="457.5" y="317" as="sourcePoint" />
+            <mxPoint x="606" y="1279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-33" edge="1" parent="1" source="omlBwbfkkGb_LAPzVC73-15" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="UmI_Y0XIzYTBldsZVeKH-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="514" y="750" as="sourcePoint" />
+            <mxPoint x="394" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-35" edge="1" parent="1" source="omlBwbfkkGb_LAPzVC73-18" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="omlBwbfkkGb_LAPzVC73-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="674" y="840" as="sourcePoint" />
+            <mxPoint x="484" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-36" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;ContentAnalysisService&lt;/span&gt;" vertex="1">
+          <mxGeometry height="880" width="290" x="1660" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-62" parent="omlBwbfkkGb_LAPzVC73-36" style="whiteSpace=wrap;strokeWidth=2;" value="Extract text and metadata" vertex="1">
+          <mxGeometry height="20" width="210" x="40" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-41" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400; color: rgb(0, 0, 0);&quot;&gt;MLTaggingService&lt;/span&gt;" vertex="1">
+          <mxGeometry height="880" width="290" x="1950" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-63" parent="omlBwbfkkGb_LAPzVC73-41" style="whiteSpace=wrap;strokeWidth=2;" value="Generate semantic tags" vertex="1">
+          <mxGeometry height="20" width="210" x="40" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-43" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400; color: rgb(0, 0, 0);&quot;&gt;MetadataRepository&lt;/span&gt;" vertex="1">
+          <mxGeometry height="880" width="270" x="2240" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-64" parent="omlBwbfkkGb_LAPzVC73-43" style="whiteSpace=wrap;strokeWidth=2;" value="Save metadata and tags to SQLite" vertex="1">
+          <mxGeometry height="20" width="210" x="31" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-49" edge="1" parent="1" source="omlBwbfkkGb_LAPzVC73-66" style="curved=0;startArrow=none;endArrow=block;exitX=0.526;exitY=0.908;rounded=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="omlBwbfkkGb_LAPzVC73-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2650" y="900" />
+            </Array>
+            <mxPoint x="1041" y="905.0000000000002" as="sourcePoint" />
+            <mxPoint x="1201" y="905.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-61" edge="1" parent="1" source="omlBwbfkkGb_LAPzVC73-27" style="curved=0;startArrow=none;endArrow=block;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="omlBwbfkkGb_LAPzVC73-60" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1430" y="330" as="sourcePoint" />
+            <mxPoint x="1617" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-65" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400; color: rgb(0, 0, 0);&quot;&gt;SearchService&lt;/span&gt;" vertex="1">
+          <mxGeometry height="880" width="270" x="2510" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-66" parent="omlBwbfkkGb_LAPzVC73-65" style="whiteSpace=wrap;strokeWidth=2;" value="Index metadata/text in FTS5" vertex="1">
+          <mxGeometry height="20" width="210" x="31" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-67" edge="1" parent="1" source="omlBwbfkkGb_LAPzVC73-60" style="curved=0;startArrow=none;endArrow=block;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="omlBwbfkkGb_LAPzVC73-62" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1620" y="490" as="sourcePoint" />
+            <mxPoint x="1704" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-68" edge="1" parent="1" source="omlBwbfkkGb_LAPzVC73-62" style="curved=0;startArrow=none;endArrow=block;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="omlBwbfkkGb_LAPzVC73-63" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1960" y="490" as="sourcePoint" />
+            <mxPoint x="2044" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-69" edge="1" parent="1" source="omlBwbfkkGb_LAPzVC73-63" style="curved=0;startArrow=none;endArrow=block;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="omlBwbfkkGb_LAPzVC73-64" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="2260" y="500" as="sourcePoint" />
+            <mxPoint x="2344" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omlBwbfkkGb_LAPzVC73-70" edge="1" parent="1" source="omlBwbfkkGb_LAPzVC73-64" style="curved=0;startArrow=none;endArrow=block;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="omlBwbfkkGb_LAPzVC73-66" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="2520" y="490" as="sourcePoint" />
+            <mxPoint x="2604" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
